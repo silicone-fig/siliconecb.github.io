@@ -9,14 +9,15 @@
   <h3>Welcome to my website!</h3>
   <p>(There's not much here yet, come back later for more!)</p>
   <br>
-  <p id="dynamicText"></p>
+  <p id="dynamicText">Loading content...</p>
   <script>
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
       // true for mobile device
-      document.getElementById("dynamicText").innerHTML = "mobile device";
+      document.getElementById("dynamicText").innerHTML = "Looks like you're using a mobile device!";
+      window.location.replace("https://turtlecode84.github.io/status");
     } else {
       // false for not mobile device
-      document.getElementById("dynamicText").innerHTML = "not mobile device";
+      document.getElementById("dynamicText").innerHTML = "Not using a mobile device, eh?";
     }
   </script>
 </body>
