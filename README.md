@@ -1,3 +1,3 @@
-# turtlecode84.github.io
+# siliconecb.github.io
 
-Just a redirect to my domain.
+just a redirect to my main site :)
